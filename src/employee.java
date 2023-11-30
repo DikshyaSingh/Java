@@ -1,8 +1,7 @@
-//class and objects
 class emp {
     String employee_name = "Dikshya Singh";
     int employee_id = 2278;
-    int employee_salary = 80000;
+    int employee_salary = 800000;
 
     public void employee_bonous() {
         System.out.println("employee " + employee_name + "of employee id" + employee_id + "has a salary of" + employee_salary);
@@ -33,30 +32,3 @@ public class employee {
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
