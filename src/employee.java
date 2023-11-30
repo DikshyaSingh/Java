@@ -1,3 +1,4 @@
+//class and objects
 class emp {
     String employee_name = "Dikshya Singh";
     int employee_id = 2278;
@@ -32,3 +33,30 @@ public class employee {
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
