@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+import java.util.Collections;
+class Employee
+{
+    int id;
+    String name;
+    double salary;
+    public Employee(int id,String name,double salary)
+    {
+        this.id=id;
+        this.name=name;
+        this.salary=salary;
+    }
+}
+public class LambdaComparator {
+    public static void main(String[] args) {
+        ArrayList<Employee>list=new ArrayList<Employee>();
+        list.add(new Employee(115, "Nisha", 1000.599));
+        list.add(new Employee(105, "Nikita", 1000.59));
+        list.add(new Employee(215, "Shubhash", 1000.559));
+        list.add(new Employee(125, "Ashish", 1000.99));
+        list.add(new Employee(111, "SuNisha", 100.599));
+        Collections.sort(list,(p1,p2)->{
+            return p1.name.compareTo(p2.name);});
+            for(Employee i:list)
+            {
+                System.out.println("Id:"+i.id);
+                System.out.println("Name:"+i.name);
+                System.out.println("Salary: " +i.salary+"\n\n\n\n");
+            }
+    }
+}
