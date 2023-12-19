@@ -1,0 +1,24 @@
+public class array_2d {
+    public static void main(String[] args) {
+        //single array=int[] arr={10,20,30,40,50};
+        String[][] arr={
+                {"A","B","C"},
+                {"E","F"}
+        };
+        //length of an array
+        System.out.println(arr.length);
+        System.out.println(arr[0].length);
+        //add the elements
+        System.out.println(arr[1][0]);
+        //updating elements
+        arr[0][1]="aaaa";
+        System.out.println(arr[0][1]);
+        //iterating
+        for (String[] x:arr){
+            for (String y: x){
+                System.out.println(y);
+            }
+            System.out.println("-----------");
+        }
+    }
+}
