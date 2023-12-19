@@ -1,0 +1,28 @@
+//array
+//array can be declare
+//
+public class array {
+    public static void main(String[] args) {
+        //array of string
+        String [] DaysOfWeek={"mon","tue","wed","thu","fri","sat","sun"};
+        //length of an array
+        System.out.println(DaysOfWeek.length);
+       //index in array
+        System.out.println(DaysOfWeek[2]);
+
+        //updating the array
+        DaysOfWeek[2]="rrr";
+        System.out.println(DaysOfWeek[2]);
+
+        //iterating array
+        for(int i=0; i<=DaysOfWeek.length-1;i++){
+            System.out.println(DaysOfWeek[i]);
+        //array of integer
+        int[] arr1={1,2,5,976,976};
+            System.out.println(arr1);
+        //array of characters
+            char[] cf={'a','e','i','o','u'};
+            System.out.println(cf);
+        }
+    }
+}
