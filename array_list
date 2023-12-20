@@ -1,0 +1,49 @@
+//arraylist implements list interface
+//arraylists supports creation of dyanamic array
+//supported methods:
+//1. accessing elements: add,get,update,remove,clear
+//2. searching elements:indexof,contains
+//3. viewing portion of elements:sublist
+//4  iterating over list:
+//5. Size,toArray,is empty:
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class array_list {
+    public static void main(String[] args) {
+
+        ArrayList<String> arr=new ArrayList<String>();
+        List<String> arr1= new ArrayList<String>();
+        //adding array
+        arr.add("red");
+        arr.add("blue");
+        arr.add("green");
+        System.out.println(arr);
+        System.out.println(arr.get(2));
+        //updating array
+        arr.set(1,"orange");
+        System.out.println(arr.get(1));
+        //remove values
+       /* arr.clear();
+        arr.remove(0);
+        arr.remove("green");*/
+        //index
+        System.out.println(arr.indexOf("orange"));
+        //sublist
+        List<String> arr2= arr.subList(0,2);
+        System.out.println(arr.subList(0,2));
+        System.out.println("---------------");
+
+        System.out.println(arr.isEmpty());
+        System.out.println(arr.size());
+        System.out.println("listof elements"+arr);
+
+//iterating
+        System.out.println("-------------");
+        for (String x:arr) {
+            System.out.println(x);
+        }
+
+    }
+}
