@@ -1,0 +1,30 @@
+import java.util.Set;
+import java.util.TreeSet;
+
+public class tree_set {
+    public static void main(String[] args) {
+        /*TreeSet is an important implementation of the SortedSet interface
+        *elements are sorted in ascending order by default
+        * no positional access of elements
+         * basic methods:add,remove,clear,contains,size
+         * IMp: union and intersection of sets
+         * IMP: convert set into list
+        * */
+        Set<String>set1=new TreeSet<String>();
+        set1.add("rob");
+        set1.add("bob");
+        set1.add("andy");
+        set1.add("charls");
+        System.out.println(set1);
+
+        var set2=new TreeSet<Integer>();
+        set2.add(100);
+        set2.add(10);
+        set2.add(50);
+        set2.add(2);
+        set2.add(0);
+        System.out.println(set2);
+
+
+    }
+}
