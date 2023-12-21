@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class array_sorting {
+    public static void main(String[] args) {
+        ArrayList<Integer> arr=new ArrayList<Integer>();
+        //adding array
+        arr.add(1);
+        arr.add(8);
+        arr.add(6);
+
+        Collections.sort(arr);
+        System.out.println(arr);
+    }
+}
