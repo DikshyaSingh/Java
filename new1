@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class new1 {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+         System.out.println("enter ");
+         String web= sc.nextLine();
+         if (web.endsWith(".org")){
+               System.out.println("its a organizational website");
+         }
+         else if (web.endsWith(".com")){
+               System.out.println("its a Commercial website");
+         }
+         else if (web.endsWith(".in")){
+                System.out.println("its a indian website");
+         }
+    }
+}
