@@ -1,0 +1,20 @@
+import java.util.LinkedHashSet;
+
+public class linked_hash_set {
+    public static void main(String[] args) {
+        /*a linked hash set i an ordered version of hashset
+        * LinkedHashSet maintains a doubly-linked list across all elements
+        * no positional access of elements
+         * basic methods:add,remove,clear,contains,size
+         * IMp: union and intersection of sets
+         * IMP: convert set into list
+        * */
+        LinkedHashSet<Character> set12=new LinkedHashSet<Character>();
+        set12.add('a');
+        set12.add('e');
+        set12.add('i');
+        set12.add('o');
+        set12.add('u');
+        System.out.println(set12);
+    }
+}
