@@ -1,0 +1,22 @@
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class hashmap {
+    public static void main(String[] args) {
+        /*hashmap provides the basic implementation of map interface
+        it stores data in key and value pairs
+        we can acess a value the corresponding key
+        methods:  put, get, containskey,remove,clear,key set,values,entrysets
+        * */
+        var map =new HashMap<Integer,String>();
+        //adding the values
+        map.put(1,"jan");
+        map.put(2,"feb");
+        map.put(3,"mar");
+        map.put(4,"apr");
+        map.put(5,"may");
+        System.out.println(map.get(2));
+        System.out.println(map.containsKey(3));
+        System.out.println(map);
+    }
+}
