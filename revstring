@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+//wajp to reverse the given string block lambda expression
+interface  stringreverse{
+    String fun(String s);
+}
+public class mainclass {
+    public static void main(String[] args) {
+
+       Scanner sc=new Scanner(System.in);
+
+        stringreverse sr=(s)-> {
+         /*String results=" ";
+         int i;
+         for(i=s.length()-1; i>=0; i--) {
+             results =results+s.charAt(i);
+         }
+         return results;
+        };*/
+
+            StringBuilder results = new StringBuilder(s).reverse();
+            return results.toString();
+        };
+        System.out.println("reverse of the name is ="+ sr.fun(sc.nextLine()));
+    }
+}
