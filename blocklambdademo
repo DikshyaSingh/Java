@@ -1,0 +1,15 @@
+interface Numericfunc{
+    int fun(int n);
+}
+public class blocklambdademo {
+    public static void main(String[] args) {
+        Numericfunc factorial=(n) -> {
+            int result=1;
+            for(int i=1; i<=n; i++)
+                result=i *result;
+            return result;
+        };
+        System.out.println("the factorial of 3= "+factorial.fun(3));
+        System.out.println("the factorial of 5= "+factorial.fun(5));
+    }
+}
