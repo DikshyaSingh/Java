@@ -1,0 +1,15 @@
+interface Myfun{
+    int func(int n);
+}
+public class varcapture {
+    public static void main(String[] args) {
+        int num=10;
+        Myfun mf=(n)-> {
+            int v=num+n;
+           // num++;
+            //num=10;
+            return v;
+        };
+        System.out.println("sum="+mf.func(10));
+    }
+}
