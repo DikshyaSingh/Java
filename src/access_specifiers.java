@@ -13,7 +13,7 @@ public class access_specifiers {
     }
 
     public static void main(String[] args) {
-        access_specifiers ac=new access_specifiers();
+        access_specifiers ac = new access_specifiers();
         ac.doThisPrivate();
         ac.doThisPublic();
         ac.doThis();
