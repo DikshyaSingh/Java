@@ -1,8 +1,8 @@
 import static java.lang.System.*;
 
  class static_keyword {
-    static String name="ram";
-    int age=6;
+    static String name = "ram";
+    int age = 6;
 
     public void displayDetails(){
        System.out.println("student's name is "+name+" and their age is " + age);
