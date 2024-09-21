@@ -11,7 +11,7 @@ public class Methods {
 
     //creating the method with arguments and returning the value
     public int multiply(int a, int b) {
-        int c = a * b;
+        int c =a * b;
         return c;
     }
 
