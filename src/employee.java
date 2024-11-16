@@ -17,8 +17,8 @@ public class employee {
         emp emp2=new emp();
 
 
-        emp1.employee_name ="ram";
-        emp1.employee_id=998;
+        emp1.employee_name = "ram";
+        emp1.employee_id = 998;
         emp1.employee_salary =10000;
 
         emp1.employee_bonous();
