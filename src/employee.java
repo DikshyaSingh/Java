@@ -14,7 +14,7 @@ public class employee {
     public static void main(String[] args)
     {
         emp emp1 = new emp();
-        emp emp2=new emp();
+        emp emp2 = new emp();
 
 
         emp1.employee_name = "ram";
