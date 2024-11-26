@@ -5,8 +5,7 @@ public class list_iterator {
     public static void main(String[] args) {
         /*list iterator is used when we want to enumerate elements of list
         *it can be used on both Arraylist and Linkedlist
-        * methods:
-        * nest,hasNext,previous,hasPrevious
+        * methods:*nest,hasNext,previous,hasPrevious
         * nextIndex,previousIndex,add,set,remove
         * */
         var list =new LinkedList<Double>();
