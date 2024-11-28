@@ -1,14 +1,14 @@
 public class array_of_object {
     public static void main(String[] args) {
         //single
-        Object [] arr={"Dikshya",33, 5.11, 'F'};
+        Object [] arr = {"Dikshya",33, 5.11, 'F'};
         for (Object x : arr){
             System.out.println(x);
 
         }
         System.out.println("---------");
         //double
-        Object [] []ar={
+        Object [] []ar = {
                 {"Dikshya",19, 5.4, 'F'},
                 {"Aashish",20,5.5,'M'},
                 };
